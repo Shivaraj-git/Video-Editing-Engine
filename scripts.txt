@@ -1,0 +1,11 @@
+Start server:
+python -m uvicorn main:app --reload
+
+View server documentation:
+http://localhost:8000/docs#/
+
+Start gradio frontend:
+python app.py
+
+View gradio ui:
+http://localhost:7860/
